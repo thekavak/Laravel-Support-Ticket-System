@@ -13,35 +13,69 @@ This system facilitates the handling of support tickets with three distinct user
 - **Team Members:** Address assigned tickets, view all tickets, and add internal comments not visible to the ticket creator.
 - **Regular Users:** Submit and view their own tickets but cannot edit or delete them.
 
-## Key Features
+<h1 align="center" id="title">Laravel Support Ticket System</h1>
 
-- **Authentication:** Implemented using Laravel Breeze for streamlined registration and login processes. Users are assigned roles upon registration.
-- **Ticket Management:** Users can create tickets with titles, descriptions, and drag-and-drop file attachments. Tickets can be assigned various priorities and statuses and categorized accordingly.
-- **Admin Panel:** Features a dashboard with ticket statistics and CRUD operations for managing Labels, Categories, Priorities, and Users.
-- **Interactivity:** Ticket pages allow for user comments and display a comprehensive activity log and update history.
-- **Notifications:** Automated email notifications alert Team Members about new or updated tickets.
+<p id="description">This Laravel-based project is designed to help need a support ticket management system equipped with multiple user roles and dynamic features. This README provides details on system setup usage and additional resources.</p>
 
-## Visual Design
+<h2>🚀 Demo</h2>
 
-You are encouraged to use any design template or create a custom design to enhance the user experience and effectively showcase the system’s functionality.
+[http://tickit.thekavak.com](http://tickit.thekavak.com)
+<br><br>
+ <h2>💻 Built with</h2>
 
-## Getting Started
+Technologies used in the project:
 
-To get started with this project, follow these steps:
+*   Laravel 10
+  
+<br><br>
+<h2>🧐 Features</h2>
 
-### Prerequisites
+Here're some of the project's best features:
 
-Ensure you have the following installed:
+*   Authentication: Implemented using Laravel session for streamlined registration and login processes. Users are assigned roles upon registration.
+*   Ticket Management: Users can create tickets with titles html descriptions and drag-and-drop file attachments. Tickets can be assigned various priorities and statuses and categorized accordingly.
+*   Admin Panel: Features a dashboard with ticket statistics and CRUD operations for managing Labels Categories Priorities and Users.
+*   Interactivity: Ticket pages allow for user response and display a comprehensive activity log and update history.
+*   Notifications:Automated email notifications alert Team Members about new or updated tickets.
+<br><br>
+<h2>🛠️ Installation Steps:</h2>
+<br>
+<p>1. Ensure you have the following installed:</p>
+
+```
 - PHP 8.0 or higher
 - Composer
-- npm
+ - npm
+```
+<p><br>2. Download the source code</p>
 
-### Installation
+<p><br>3. Install dependencies:</p>
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+```
+composer install 
+npm install
+```
 
+<p><br>4. Set up your environment file:</p>
+
+```
+cp .env.example .env
+```
+
+<p><br>5. Generate an application key:</p>
+
+```
+php artisan key:generate
+```
+
+<p><br>6. Run migrations:</p>
+
+```
+php artisan migrate
+```
+
+  
+  
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

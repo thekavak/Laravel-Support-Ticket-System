@@ -12,13 +12,20 @@
 This system facilitates the handling of support tickets with three distinct user roles, each with specialized capabilities:
 
 - **Admins:** Manage all system settings, assign tickets, and view detailed reports.
-- **Team Members:** Address assigned tickets, view all tickets, and add internal comments not visible to the ticket creator.
-- **Regular Users:** Submit and view their own tickets but cannot edit or delete them.
+- **Team Members:** Answer assigned tickets, reassign, view all tickets, and add internal comments that are not visible to the person who created the ticket.
+- **Regular Users:** They can submit and view their own tickets and add file and html description but cannot edit or delete them.
 
 <h2>🚀 Demo</h2>
 
 [http://tickit.thekavak.com](http://tickit.thekavak.com)
 <br><br>
+
+<h3>Demo Users</h3>h3>
+To explore the system, use the following demo credentials:
+
+Admin Login: Email: admin@tickit.com | Password: password
+Regular User Login: Email: user@tickit.com | Password: password
+
  <h2>💻 Built with</h2>
 
 Technologies used in the project:

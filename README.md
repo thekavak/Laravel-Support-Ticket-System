@@ -20,7 +20,7 @@ This system facilitates the handling of support tickets with three distinct user
 [http://tickit.thekavak.com](http://tickit.thekavak.com)
 <br><br>
 
-<h3>Demo Users</h3>h3>
+<h3>Demo Users</h3>
 To explore the system, use the following demo credentials:
 
 Admin Login: Email: admin@tickit.com | Password: password

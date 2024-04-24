@@ -1,9 +1,11 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-# Support Ticket Management System
 
 ![Logo](path/to/your/logo.png)
 
-This Laravel-based project is designed to help junior developers practice building a support ticket management system, equipped with multiple user roles and dynamic features. This README provides details on system setup, usage, and additional resources.
+
+
+<h1 align="center" id="title">Laravel Support Ticket System</h1>
+
+<p id="description">This Laravel-based project is designed to help need a support ticket management system equipped with multiple user roles and dynamic features. This README provides details on system setup usage and additional resources.</p>
 
 ## Project Overview
 
@@ -12,10 +14,6 @@ This system facilitates the handling of support tickets with three distinct user
 - **Admins:** Manage all system settings, assign tickets, and view detailed reports.
 - **Team Members:** Address assigned tickets, view all tickets, and add internal comments not visible to the ticket creator.
 - **Regular Users:** Submit and view their own tickets but cannot edit or delete them.
-
-<h1 align="center" id="title">Laravel Support Ticket System</h1>
-
-<p id="description">This Laravel-based project is designed to help need a support ticket management system equipped with multiple user roles and dynamic features. This README provides details on system setup usage and additional resources.</p>
 
 <h2>🚀 Demo</h2>
 
